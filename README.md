@@ -15,6 +15,7 @@ NextJS Typescript Components
 - https://dev.to/alexeagleson/how-to-create-and-publish-a-react-component-library-2oe
 - fix rollup errors: https://stackoverflow.com/questions/73197460/error-could-not-resolve-entry-module-react-rollup
 - How to Bundle JavaScript With Rollup — Step-by-Step Tutorial: https://www.learnwithjason.dev/blog/learn-rollup-js
+- rollup typescript plugin errors; https://dev.to/aayani/comment/1nogh
 ### must install version 8.3.3 of rollup plugin (npm i @rollup/plugin-typescript@8.3.3 --save-dev) otherwise, you will get the error below when you run npm run rollup
 - [!] Error: Could not resolve entry module (dist/esm/types/index.d.ts).
 - Error: Could not resolve entry module (dist/esm/types/index.d.ts).

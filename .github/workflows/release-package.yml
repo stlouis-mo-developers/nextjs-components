@@ -1,4 +1,4 @@
-name: Node.js Package
+name: NextJS Typescript React Components - Package
 
 on:
   push:
@@ -17,7 +17,7 @@ jobs:
         with:
           node-version: 16
           registry-url: https://npm.pkg.github.com/
-          scope: '@kingsleytagbo'
+          scope: '@stlouis-mo-developers'
       - run: npm install
       - run: npm run rollup
       - run: npm publish
