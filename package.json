@@ -1,0 +1,40 @@
+{
+  "name": "@stlouis-mo-developers/nextjs-components",
+  "version": "0.0.9",
+  "description": "NextJS Typescript Components",
+  "scripts": {
+    "rollup": "rollup -c",
+    "test": "exit 0",
+    "build": "npm build && npm version patch"
+  },
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "files": [
+    "dist"
+  ],
+  "types": "dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stlouis-mo-developers/nextjs-components.git"
+  },
+  "author": "stlouisdevelopers",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stlouis-mo-developers/nextjs-components/issues"
+  },
+  "homepage": "https://github.com/stlouis-mo-developers/nextjs-components#readme",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/@stlouis-mo-developers"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^21.0.1",
+    "@rollup/plugin-node-resolve": "^13.0.6",
+    "@rollup/plugin-typescript": "^8.3.3",
+    "@types/react": "^18.0.28",
+    "react": "^18.2.0",
+    "rollup": "^2.60.0",
+    "rollup-plugin-dts": "^4.0.1",
+    "tslib": "^2.5.0",
+    "typescript": "^4.9.5"
+  }
+}
